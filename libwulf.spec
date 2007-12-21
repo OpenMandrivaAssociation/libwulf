@@ -21,6 +21,7 @@ License: GPL
 Source: http://www.phy.duke.edu/~rgb/wulfware/%{name}-%{version}.tgz
 Requires: libxml2
 BuildRequires: libxml2-devel
+BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 URL:	http://www.phy.duke.edu/~rgb/wulfware/
 
 %description 
