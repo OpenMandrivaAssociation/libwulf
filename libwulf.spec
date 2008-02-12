@@ -25,7 +25,6 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 URL:	http://www.phy.duke.edu/~rgb/wulfware/
 
 %description 
-
 libwulf is the core common library required by wulfstat and wulflogger,
 two xmlsysd clients that poll and display various statistics from a
 cluster in a user-controllable loop.  libwulf contains routines that
