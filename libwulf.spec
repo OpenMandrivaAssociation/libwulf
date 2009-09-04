@@ -4,7 +4,7 @@
 
 %define name    libwulf
 %define version 1.0.2
-%define release %mkrel 4
+%define release %mkrel 5
 
 %define lib_version     1.0.2
 %define lib_major       1
