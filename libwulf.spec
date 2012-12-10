@@ -112,3 +112,44 @@ rm -rf %{builddir}
 %endif
 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.2-6mdv2011.0
++ Revision: 620237
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.0.2-5mdv2010.0
++ Revision: 429848
+- rebuild
+
+* Sun Jul 27 2008 Thierry Vignaud <tv@mandriva.org> 1.0.2-4mdv2009.0
++ Revision: 250699
+- rebuild
+- fix spacing at top of description
+
+  + Pixel <pixel@mandriva.com>
+    - do not call ldconfig in %%post/%%postun, it is now handled by filetriggers
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.0.2-2mdv2008.1
++ Revision: 136571
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Feb 09 2007 Erwan Velu <erwan@mandriva.org> 1.0.2-2mdv2007.0
++ Revision: 118469
+- Fixing x86_64 build
+- Missing buildrequires
+- rebuild
+- Import libwulf
+
+* Sat Sep 24 2005 Erwan Velu <erwan@seanodes.com> 1.0.2-1mdk
+- First mdk release
+- Cleaning specfile
+
+* Wed Feb 11 2004 Robert G. Brown <rgb@duke.edu>
+- Working
+
